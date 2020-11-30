@@ -1,0 +1,150 @@
+body{
+    --primary-color: #7A6EF7;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+
+    margin: 0;
+    height: 100vh;
+    /* horizontally and vertically centers both forms */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: var(--primary-color);
+}
+
+.container{
+    width: 400px;
+    /* enables container to shrink on a smaller device */
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    background-color: white;
+}
+
+.container,
+.form-iput,
+.form-button,
+.form-message{
+    font: 400 1rem 'Hind Siliguri', sans-serif;
+}
+
+.form > *:first-child{
+    margin-top: 0;
+}
+
+.form > *:last-child{
+    margin-bottom: 0;
+}
+
+.form-message{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.form-message-success{
+ color:var(--color-success);
+}
+
+.form-message-error{
+    color:var(--color-error);
+}
+
+.form-input-group{
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color:#f0f0f0;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 .4rem;
+}
+.form-input-group i{
+    text-align: center;
+    line-height: 55px;
+    color: #acacac;
+    font-size: 1.1rem;
+    font-size: larger;
+}
+.form-input-group input{
+    background: none;
+    outline: none;
+    border: none;
+    text-align:center;
+}
+
+.form-input-error{
+    color: var(--color-error);
+    border-color: var(--color-error);
+}
+
+.form-input-error-message{
+    margin-top: o.5rem;
+    font-size: o.85rem;
+    color: var(--color-error);
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-icon{
+    font-size: 28px;
+    color:  black;
+    height: 46px;
+    width: 46px;
+    border: 1px solid black;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 46px;
+}
+.social-icon:hover{
+    color: #2e2c2c;
+}
+.btn-solid{
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: 10px 0;  
+}
+.btn-solid:hover{
+    background-color: #2e2c2c;
+}
+.right-container{
+    width: 200px;
+    /* enables container to shrink on a smaller device */
+    max-width: 200px;
+    margin: -1rem;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    background-color: black;
+    height: 395px;
+    color: white;
+    font: 400 4rem 'Hind Siliguri', sans-serif;
+    text-align: center;
+}
+.right-container-logIn{
+    width: 200px;
+    /* enables container to shrink on a smaller device */
+    max-width: 200px;
+    margin: -1rem;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    background-color: black;
+    height: 266px;
+    color: white;
+    font: 400 4rem 'Hind Siliguri', sans-serif;
+    text-align: center;
+}
